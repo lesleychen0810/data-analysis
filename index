@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>視覺化</title>
+    <style>
+      body {
+        background-color: #f2f2f2;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      #report-container {
+        margin: 0 auto;
+        max-width: 1000px;
+        padding: 20px;
+      }
+      #report-container iframe {
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+      }
+      h1 {
+        text-align: center;
+      }
+      .image-group {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: 20px;
+      }
+      .image-group img {
+        width: 48%;
+        margin-bottom: 20px;
+      }
+      .image-group img:nth-child(2n+1) {
+        margin-right: 4%;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Power BI</h1>
+    <iframe title="Report Section" width="1920" height="1080" src="https://app.powerbi.com/view?r=eyJrIjoiM2RlOTExODctYTBlYS00YzE2LWEyMjktNDRlYzc4NzUyYTA0IiwidCI6IjM1ZWMzYzM4LTJhYjItNDcxNC05NTY4LTIwOTgxYzU2YjIwOCIsImMiOjEwfQ%3D%3D" frameborder="0" allowFullScreen="true"></iframe>
+  <h1>Python</h1>
+  <div class="image-group">
+  <img src="./img/PY線性迴歸演算法_幼年人口.png">
+  <img src="./img/PY線性迴歸演算法_生育率.png">
+  <img src="./img/PY線性迴歸演算法_老化指數.png">
+  <img src="./img/PY線性迴歸演算法_老年人口.png">
+  <img src="./img/PY線性迴歸演算法_粗出生率.png">
+  <img src="./img/PY線性迴歸演算法_粗死亡率.png">
+  <img src="./img/PY類神經網路演算法_幼年人口.png">
+  <img src="./img/PY類神經網路演算法_生育率.png">
+  <img src="./img/PY類神經網路演算法_老化指數.png">
+  <img src="./img/PY類神經網路演算法_老年人口.png">
+  <img src="./img/PY類神經網路演算法_粗出生率.png">
+  <img src="./img/PY類神經網路演算法_粗死亡率.png">
+  </div>
+  <h1>R</h1>
+  <div class="image-group">
+  <img src="./img/R線性迴歸演算法_幼年人口.png">
+  <img src="./img/R線性迴歸演算法_生育率.png">
+  <img src="./img/R線性迴歸演算法_老化指數.png">
+  <img src="./img/R線性迴歸演算法_老年人口.png">
+  <img src="./img/R線性迴歸演算法_粗出生率.png">
+  <img src="./img/R線性迴歸演算法_粗死亡率.png">
+  <img src="./img/R類神經網路演算法_幼年人口.png">
+  <img src="./img/R類神經網路演算法_生育率.png">
+  <img src="./img/R類神經網路演算法_老化指數.png">
+  <img src="./img/R類神經網路演算法_老年人口.png">
+  <img src="./img/R類神經網路演算法_粗出生率.png">
+  <img src="./img/R類神經網路演算法_粗死亡率.png">
+  </div>
+  </body>
+  
+</html>
